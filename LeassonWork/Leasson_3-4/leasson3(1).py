@@ -6,7 +6,7 @@ g = "String"
 if type(a) == int:# Проверка, не является ли a целым числом цикл будет запущен при условии что одно из условий тру! 
     print("A == int ")
 
-elif b != 0 :
+elif b == 0 :
     print("B != 0 Nice !")
 
 elif d <= 1000:
@@ -17,6 +17,71 @@ else:
 
 
 # ===============================================
+
+b1 = 200
+b3 = 40000
+
+if b1 >= 300 and b3 == 30000:
+    print("If start ! ")
+else:
+    print("Argument not corect !")
+
+# --------------------------------------------------------
+
+
+d0 = 89
+
+d87 = 234
+
+if d0 != -0 and d87 <=150 or d0 == type(int):
+    print("If work ")
+elif d0 != 0 :
+    print(f"{d0} Больше чем ноль ")
+else:
+    print("End")
+
+# ---------------------------------------------------------
+
+
+test_list = [2 , 34.0957 , None ,False , 8 ]
+
+print(test_list)
+
+if 2 in test_list and None in test_list:      # Если 2 внутри тест листа и ноне внутри напечатать !
+    print("Gooooo") 
+  
+# ==========================================================]
+print("========================================")
+
+
+test_list2 = [2 , 5 , 8 ,10]
+
+print(test_list2 , "List create succesfule !")
+
+if 45 in test_list2 and 55 in test_list2:
+    print("45 or 55 no corect")
+elif test_list2 != type(int):
+    print(type(test_list2))
+else:
+    print("Sorry script no work ! ")
+
+
+print("========================================")
+
+# --------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
